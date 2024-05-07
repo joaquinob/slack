@@ -26,6 +26,56 @@ header {
   width: 40px;
 }
 
+@media (min-width: 1280px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .list {
+    display: inline-flex;
+  }
+  .list_1 {
+    display: inline-flex;
+    margin: 5px;
+  }
+  .list_1-1 {
+    display: inline-flex;
+    margin-right: 5px;
+    align-items: center;
+  }
+  .list_1-2 {
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+  }
+  .list_2 {
+    list-style: none;
+    display: inline-flex;
+  }
+  .list_2-1 {
+    padding: 15px;
+    border: 3px solid #611f69;
+    color: #611f69;
+    font-weight: 700;
+    margin: 0px 20px 0px 20px;
+    border-radius: 4px;
+  }
+  .list_2-2 {
+    padding: 15px;
+    color: white;
+    background-color: #611f69;
+    font-weight: 700;
+    border-radius: 4px;
+  }
+  .title {
+    background-color: transparent;
+  }
+  .menu {
+    display: none;
+  }
+}
 .h1 {
   display: flex;
   flex-wrap: wrap;
@@ -34,6 +84,10 @@ header {
   text-align: center;
   margin: 0.67em 0;
   font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.8px;
+  font-size: 3.125rem;
+  margin-bottom: 1rem;
 }
 
 .mark {
@@ -52,7 +106,7 @@ header {
   text-transform: uppercase;
   margin: 10px;
   width: 100%;
-  background-color: #4a154b;
+  background-color: #611f69;
   color: white;
   border-radius: 4px;
   border: none;
@@ -99,13 +153,17 @@ header {
   margin: 15px;
 }
 
+.pics {
+  margin-bottom: 100px;
+}
+
 .marco {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: #f4ede4;
-  height: 40vh;
+  height: 60vh;
 }
 
 .video {
@@ -115,10 +173,12 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: -15rem;
 }
 
 footer {
   background-color: #f4ede4;
+  margin-top: auto;
 }
 
 .foot {

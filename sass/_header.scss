@@ -26,3 +26,60 @@ header{
     margin: 5px;
     width: 40px;
 };
+
+
+
+@media (min-width:1280px){
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+        
+    }
+    .list{
+        display: inline-flex;
+        &_1{
+            display: inline-flex;
+            margin: 5px;
+            &-1{
+                display: inline-flex;
+                margin-right: 5px;
+                align-items: center;
+            }
+            &-2{
+                display: inline-flex;
+                list-style: none;
+                align-items: center;
+            }
+        };
+
+        &_2{
+            list-style: none;
+            display: inline-flex;
+            &-1{
+                padding:15px;
+                border: 3px solid #611f69;
+                color: #611f69;
+                font-weight: 700;
+                margin:0px 20px 0px 20px;
+                border-radius: 4px;
+            }
+            &-2{
+                padding:15px;
+                color: white;
+                background-color: #611f69;
+                font-weight: 700;
+                border-radius: 4px;
+            }
+        }
+    };
+    .title{
+        background-color: transparent;
+    }
+
+    .menu{
+        display: none;
+    }
+
+}
